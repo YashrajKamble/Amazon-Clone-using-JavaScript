@@ -65,11 +65,11 @@ nav {
   width: 100%;
 }
 
-.nav-search-search {
+.nav-search-icon {
   max-width: 41px;
   padding: 8px;
   background: #ffd64f;
-  border: 0 4px 4px 0;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .nav-language {
@@ -86,6 +86,7 @@ nav {
 
 .nav-text p {
   font-size: 10px;
+  font-weight: 600;
 }
 
 .nav-text h1 {

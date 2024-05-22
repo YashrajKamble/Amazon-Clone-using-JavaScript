@@ -237,11 +237,13 @@ nav {
   margin: 8px 0px;
   font-size: 13px;
 }
+
 .product-offer span {
   color: #be0b3b;
   font-weight: 500;
   font-size: 12px;
 }
+
 .product-price {
   color: gray;
   font-size: 13px;
@@ -251,4 +253,13 @@ nav {
   color: #525252;
   font-size: 15px;
   font-weight: 400;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #131921;
+  padding: 20px 60px;
 }

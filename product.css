@@ -256,3 +256,7 @@ body {
   background: white;
   cursor: pointer;
 }
+
+.product-footer {
+  margin-top: 5%;
+}

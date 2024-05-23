@@ -39,3 +39,11 @@ for (const item of scrollContainer) {
     item.scrollLeft += evt.deltaY;
   });
 }
+
+const scrollContainer2 = document.querySelectorAll(".nav-bottom");
+for (const item of scrollContainer2) {
+  item.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    item.scrollLeft += evt.deltaY;
+  });
+}

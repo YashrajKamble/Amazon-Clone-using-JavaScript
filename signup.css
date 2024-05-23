@@ -13,16 +13,17 @@ body {
 }
 
 .location {
-  position: fixed;
+  position: absolute;
   margin: 22px 3px;
   font-size: 15px;
+  cursor:default;
 }
 
 .logo {
   margin-top: 20px;
 }
 
-.signin-container {
+.signup-container {
   max-width: 350px;
   border: 1px solid #d2d2d2;
   margin: auto;
@@ -32,7 +33,7 @@ body {
   text-align: left;
 }
 
-.signin-title {
+.signup-title {
   font-size: 28px;
   font-weight: 400;
 }
@@ -43,7 +44,7 @@ body {
   font-weight: 500;
 }
 
-.signin-container input {
+.signup-container input {
   width: 100%;
   height: 32px;
   margin-top: 5px;
@@ -53,11 +54,11 @@ body {
   font-size: 12px;
 }
 
-.signin-container input:focus {
+.signup-container input:focus {
   outline: 3px solid #c2f2ff;
 }
 
-.signin-container button {
+.signup-container button {
   width: 100%;
   height: 32px;
   margin: 15px 0;
@@ -67,48 +68,51 @@ body {
   background: #ffd814;
 }
 
-.signin-container button:hover {
+.signup-container button:hover {
   background: #ebc712;
 }
 
-.signin-condition {
+.signup-condition {
   font-size: 12px;
   font-weight: 400;
 }
 
-.signin-condition span {
+.signup-condition span {
   color: #0066c0;
+  cursor: pointer;
 }
 
-.signin-help {
+.signup-help {
   font-size: 13px;
   margin: 20px 0px;
 }
 
-.signin-help span {
+.signup-help span {
   color: #0066c0;
   font-weight: 400;
   margin: 0px 5px;
+  cursor: pointer;
 }
 
-.signin-container hr {
+.signup-container hr {
   border: none;
   height: 1px;
   background: #d4d4d4;
 }
 
-.signin-container h4 {
+.signup-container h4 {
   margin: 15px 0;
   font-size: 13px;
 }
 
-.signin-business {
+.signup-business {
   font-size: 13px;
   font-weight: 400;
   color: #0066c0;
+  cursor: pointer;
 }
 
-.signin-bottom {
+.signup-bottom {
   width: 350px;
   font-size: 13px;
   color: #737373;
@@ -119,7 +123,7 @@ body {
   gap: 6px;
 }
 
-.signin-bottom hr {
+.signup-bottom hr {
   order: none;
   height: 1px;
   background: #d4d4d4;
@@ -146,7 +150,6 @@ footer {
   max-height: 200px;
   margin-top: 20px;
   padding: 20px 0;
-  position: fixed;
   bottom: 0;
   background: linear-gradient(to bottom, #f4f4f4, #fff);
   border: 2px solid #ededed;

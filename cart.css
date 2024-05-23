@@ -7,6 +7,7 @@
 .cart-left {
   background: white;
   padding: 20px;
+  /* min-width: 500px; */
 }
 
 .cart-left h1 {
@@ -113,4 +114,45 @@
   text-align: right;
   font-size: 18px;
   margin-top: 10px;
+}
+
+.cart-right {
+  background: white;
+  padding: 20px;
+  max-height: 220px;
+  min-width: 280px;
+}
+
+.cart-free-delivery {
+  display: flex;
+  font-size: 13px;
+}
+
+.cart-subtotal {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cart-right-gift {
+  margin: 7px 0;
+  font-size: 14px;
+}
+
+.cart-right button {
+  width: 100%;
+  height: 32px;
+  margin: 15px 0;
+  background: #ffd814;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-right button:hover {
+  background: #ebc712;
+}
+
+.footer-cart {
+  margin-top: 50px;
 }

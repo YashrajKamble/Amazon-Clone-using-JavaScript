@@ -13,9 +13,10 @@ body {
 }
 
 .location {
-  position: fixed;
+  position: absolute;
   margin: 22px 3px;
   font-size: 15px;
+  cursor: default;
 }
 
 .logo {
@@ -41,6 +42,20 @@ body {
   margin-top: 20px;
   font-size: 15px;
   font-weight: 500;
+}
+
+.input-label span {
+  color: #0066c0;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 135px;
+  cursor: pointer;
+}
+
+.input-label span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(196, 85, 0);
 }
 
 .signin-container input {
@@ -78,6 +93,7 @@ body {
 
 .signin-condition span {
   color: #0066c0;
+  cursor: pointer;
 }
 
 .signin-help {
@@ -89,6 +105,7 @@ body {
   color: #0066c0;
   font-weight: 400;
   margin: 0px 5px;
+  cursor: pointer;
 }
 
 .signin-container hr {
@@ -106,6 +123,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   color: #0066c0;
+  cursor: pointer;
 }
 
 .signin-bottom {
@@ -146,7 +164,7 @@ footer {
   max-height: 200px;
   margin-top: 20px;
   padding: 20px 0;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   background: linear-gradient(to bottom, #f4f4f4, #fff);
   border: 2px solid #ededed;

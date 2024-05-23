@@ -126,6 +126,11 @@
 .cart-free-delivery {
   display: flex;
   font-size: 13px;
+  gap: 10px;
+}
+
+.cart-free-delivery .checked {
+  margin-top: 10px;
 }
 
 .cart-subtotal {
@@ -136,7 +141,7 @@
 
 .cart-right-gift {
   margin: 7px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .cart-right button {
